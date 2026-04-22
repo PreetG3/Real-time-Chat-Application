@@ -30,7 +30,6 @@ Bootstrap
 Maven / Gradle
 
 🧠 How It Works
-
 1. The client establishes a WebSocket connection with the server using SockJS.
 2. STOMP protocol is used for sending and receiving messages.
 3. Messages are routed through Spring’s messaging system.
@@ -39,20 +38,18 @@ Maven / Gradle
 
 ⚙️ Setup & Run
 1️⃣ Clone the repository
-git clone
+git clone https://github.com/PreetG3/Real-time-Chat-Application.git
 2️⃣ Run the application
-Using Maven:
-mvn spring-boot:run
+Using Maven: mvn spring-boot:run
 
 ## 📸 Screenshots
-
 ### Real-Time Chat UI
 
 ![Chat UI](screenshots/chatUI.png)
 
 🌐 Access the App
 Open your browser and go to:
-http://localhost:8080
+http://localhost:8080/chat
 
 🚧 Future Improvements
 🔐 User authentication (JWT / Spring Security)
